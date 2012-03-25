@@ -62,7 +62,7 @@ import java.util.TimerTask;
 public class MainActivity extends Activity implements SensorEventListener
 {    
     static Integer GPS_UPDATE_INTERVAL = 60000; // 1 Minute
-    static String  PHONENUMBER         = "+436606541518";
+    static String  PHONENUMBER         = "+0123456789"; // ENTER YOUR SAFE PHONE NUMBER HERE (RECEIVES TEXT MESSAGES)
     
     private SensorManager sensorManager;
     private Sensor sensor;
