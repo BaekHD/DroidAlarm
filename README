@@ -1,0 +1,16 @@
+What this app does:
+
+Attach your phone (Android 2.3+) to some sort of power source on your vehicle (car, scooter, motor-cycle). Make sure it has enough battery throughout the night, or between the days while not charging (driving). 
+
+Once the app is running, it will use the accelerometer to detect any shock or rapid movement (can be adjusted within the app). This means, somebody is trying to carry your bike into a van, or somebody hit it while parking right next to it. 
+
+The app will then notify you via text message, no internet required. The first message will only tell you that the bike or vehicle was hit or moved. This will trigger a timer that fires every minute. It will also turn on the GPS and/or A-GPS sensors to receive the current location. About one minute (or slightly longer, depending on GPS fix) later, you should see your first text message with Latitude/Longitude/Accuracy and Bearing. The alarm system will update you every minute now and tell you where the vehicle is moving. 
+
+You can communicate with the alarm device through two commands right now:
+
+- Send "STOP": The device will turn off the alarm system.
+- Send "START": The device will reset the alarm system (as if nothing happened), and wait for anything to happen
+
+
+Notes:
+- The app has a 10 second delay after it was started before it starts detecting things.
